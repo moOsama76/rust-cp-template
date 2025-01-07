@@ -1,7 +1,7 @@
+#![allow(warnings)]
 use std::io;
 use std::str::FromStr;
 
-#[allow(dead_code)]
 enum ArrayFormate {
     Inline,
     NotInline,
