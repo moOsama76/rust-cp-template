@@ -1,4 +1,4 @@
-
+#![allow(warnings)]
 use std::io;
 use std::str::FromStr;
 fn take_item<T>() -> T
