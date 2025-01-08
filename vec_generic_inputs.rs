@@ -42,6 +42,7 @@ where
 }
 
 fn main() {
-    let v: Vec<u32> = take_vec(3, VecFormate::Inline);
+    let size = 3;
+    let v: Vec<u32> = take_vec(size, VecFormate::Inline);
     print!("{:?}", v);
 }
